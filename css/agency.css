@@ -30,7 +30,7 @@ html {
   color: #fed136;
 }
 p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.75;
 }
 p.large {
@@ -301,6 +301,7 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    color: #ff32ff;
     font-weight: 700;
     font-size: 75px;
     line-height: 75px;
@@ -677,7 +678,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #ff32ff;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -806,4 +807,21 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+.pading-botom-15{
+  padding-bottom: 20px;
+}
+
+span {
+  background: #ff32ff none repeat scroll 0 0;
+  display: block;
+  height: 2px;
+  margin: 15px auto;
+  width: 70px;
+  position: relative;
+}
+
+.form-control {
+  border-radius: 0px;
 }
