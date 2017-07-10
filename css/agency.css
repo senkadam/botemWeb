@@ -64,7 +64,7 @@ h6{
 }
 .main-text{
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  size: 30px;
+  size: 26px;
   font-weight: 500;
 
 }
@@ -123,12 +123,12 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #ff32ff;
+  border-color: #ff32ff;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: 0px;
   font-size: 18px;
   padding: 20px 40px;
 }
@@ -138,8 +138,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #c200c2;
+  border-color: #c200c2;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -267,7 +267,7 @@ header {
   color: white;
 }
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
   text-align: left;
 }
@@ -615,7 +615,7 @@ aside.clients img {
 }
 .contact .form-group input,
 .contact .form-group textarea {
-  padding: 20px;
+  padding: 10px;
 }
 .contact .form-group input.form-control {
   height: auto;
@@ -824,4 +824,14 @@ span {
 
 .form-control {
   border-radius: 0px;
+}
+
+.white-a{
+  color:white;
+  text-decoration: underline;
+}
+
+.white-a:hover{
+  color:#c200c2;
+  text-decoration: underline;
 }

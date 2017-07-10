@@ -70,3 +70,8 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+$('#getintouch').click(function(){
+    $('#name    ').focus();
+});
+
