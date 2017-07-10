@@ -29,10 +29,27 @@ html {
 .text-primary {
   color: #fed136;
 }
-p {
-  font-size: 20px;
-  line-height: 1.75;
+
+@media (min-width: 768px) {
+    p {
+        font-size: 16px;
+        line-height: 1.75;
+    }
 }
+
+@media (min-width: 992px) {
+  p {
+    font-size: 20px;
+    line-height: 1.75;
+  }
+}
+
+
+p {
+   size: 18px;
+   line-height: 1.75;
+ }
+
 p.large {
   font-size: 16px;
 }
@@ -67,6 +84,14 @@ h6{
   size: 26px;
   font-weight: 500;
 
+}
+@media (min-width: 992px) {
+  .main-text {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    size: 20px;
+    font-weight: 500;
+
+  }
 }
 .img-centered {
   margin: 0 auto;
