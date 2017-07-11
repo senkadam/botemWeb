@@ -11,7 +11,7 @@
 }
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif
 
 }
 
@@ -192,6 +192,9 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
   color: #fed136;
   background-color: white;
+}
+.alert {
+    border-radius: 0px  ;
 }
 .navbar-custom {
   background-color: #222222;
