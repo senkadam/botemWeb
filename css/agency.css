@@ -93,6 +93,10 @@ h6{
 
   }
 }
+#botem_logo {
+    height: 100%;
+    width: 100%;
+}
 .img-centered {
   margin: 0 auto;
 }
